@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Convertisseur_ressources</string>
+    <string name="app_name">Convertisseur_menus</string>
     <string name="msg_err_dev_dep">Selectionnez la devise de départ !</string>
     <string name="msg_err_dev_arr">Sélectionnez la devise d\'arrivée !</string>
     <string name="msg_err_mont_vide">Saississez un montant !</string>

@@ -21,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
+    /*@Override
     protected void onDestroy() {
         super.onDestroy();
         toast("Fin de l'application");
-    }
+    }*/
 
     /**
      * Méthode appelée sur l'évènement OnClick du bouton "buttonConv"
@@ -40,12 +40,11 @@ public class MainActivity extends AppCompatActivity {
             //récupération du code erreur
             String nomRessource = se.getMessage();
             //récupération de id de la ressource
-            int id = getResources().getIdentifier(nomRessource,"string", "com.example.afpa1797.convertisseur_ressources");
+            int id = getResources().getIdentifier(nomRessource,"string", "com.example.afpa1797.convertisseur_menus");
             Log.d("MAIN", "Id ressource = " + id);
             Log.d("MAIN", "valeur = " + getResources().getString(id) );
             //message de r&cuperation de la ressource
             toast(getResources().getString(id));
-
         }
     }
 
@@ -55,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
      * @param btn  le composant graphique Button (de classe View) cliqué
      */
     public void onClickQuitter(View btn) {
-
+        toast("Fin de l'application");
         finish();
     }
 
@@ -96,10 +95,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu, menu);
+       getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
-        //return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -108,17 +105,13 @@ public class MainActivity extends AppCompatActivity {
             case R.id.idApropos:
                 return true;
             case R.id.idlangue:
-                String language  = "fr"; // ta langue
-                Locale locale = new Locale(language);
-                Locale.setDefault(locale);
-                Configuration config = new Configuration();
-                config.locale = locale;
-                getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
+                return true;
+            case R.id.iddate:
                 return true;
             case R.id.idaffichage:
                 return true;
             case R.id.idQuitter:
-                finish();
+                onClickQuitter(null);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

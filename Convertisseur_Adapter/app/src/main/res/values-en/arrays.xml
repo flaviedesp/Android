@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listeDevises">
+        <item>Click for selection</item>
+        <item>CHF Franc Suisse (Suisse)</item>
+        <item>DKK Couronne (Danemark)</item>
+        <item>DZD Dinar (Algerie)</item>
+        <item>EGP Livre (Egypte)</item>
+        <item>EUR Euro (Union Européenne)</item>
+        <item>GBP Livre (Grande Bretagne)</item>
+        <item>JPY Yen (Japon)</item>
+        <item>MAD Dirhan (Maroc)</item>
+        <item>RUB Rouble russe (Russie)</item>
+        <item>USD Dollar (Etats Unis)</item>
+    </string-array>
+</resources>

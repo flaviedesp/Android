@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">convertisseur_adapter2</string>
+    <string name="msg_err_dev_dep">Selectionnez la devise de départ !</string>
+    <string name="msg_err_dev_arr">Sélectionnez la devise d\'arrivée !</string>
+    <string name="msg_err_mont_vide">Saississez un montant !</string>
+    <string name="msg_err_mont_num">Saisissez un montant numérique !</string>
+    <string name="lbl_dev_dep">Devise de départ</string>
+    <string name="lbl_dev_arr">Devise d\'arrivée</string>
+    <string name="lbl_mont">Montant</string>
+    <string name="lbl_btn_conv">CONVERTIR</string>
+    <string name="lbl_btn_quit">QUITTER</string>
+    <string name="lbl_activite_land">Convertisseur\nde devises</string>
+    <string name="lbl_activite_port">Convertisseur\nde\ndevises</string>
+    <string name="id_Titre_APropos">A Propos du\nConvertisseur\nde\ndevises</string>
+    <string name="id_Creation">Création : TP 05 Intent</string>
+    <string name="id_Copyright">Copyright : AFPA Créteil CDI</string>
+    <string name="id_Date_Propos">Date : Avril 2018</string>
+    <string name="id_result_titre">Le résultat est :</string>
+    <string name="id_devise_dep" />
+    <string name="id_equal">=</string>
+    <string name="id_resultat" />
+    <string name="id_retour">RETOUR</string>
+</resources>

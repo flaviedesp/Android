@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Converter_adapter2</string>
+    <string name="msg_err_dev_dep">Select start currency !</string>
+    <string name="msg_err_dev_arr">Select finish currency !</string>
+    <string name="msg_err_mont_vide">Select amount !</string>
+    <string name="msg_err_mont_num">Select numeric amount !</string>
+    <string name="lbl_dev_dep">Start currency</string>
+    <string name="lbl_dev_arr">Finish currency</string>
+    <string name="lbl_mont">Amount</string>
+    <string name="lbl_btn_conv">CONVERT</string>
+    <string name="lbl_btn_quit">QUIT</string>
+    <string name="lbl_activite_port">Money\nConverter\n***</string>
+    <string name="lbl_activite_land">Money Converter\n***</string>
+    <string name="id_Titre_APropos">About the\n currency\nconverter</string>
+    <string name="id_Creation">Creation : TP 05 Intent</string>
+    <string name="id_Copyright">Copyright : AFPA Créteil CDI</string>
+    <string name="id_Date_Propos">Date : April 2018</string>
+    <string name="id_result_titre">The result is :</string>
+    <string name="id_devise_dep" />
+    <string name="id_equal">=</string>
+    <string name="id_retour">RETURN</string>
+</resources>
