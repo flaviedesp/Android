@@ -10,8 +10,8 @@
     <string name="lbl_mont">Amount</string>
     <string name="lbl_btn_conv">CONVERT</string>
     <string name="lbl_btn_quit">QUIT</string>
-    <string name="lbl_activite_port">Money\nConverter\n***</string>
-    <string name="lbl_activite_land">Money Converter\n***</string>
+    <string name="lbl_activite_port">Money\nConverter\n</string>
+    <string name="lbl_activite_land">Money Converter</string>
     <string name="id_Titre_APropos">About the\n currency\nconverter</string>
     <string name="id_Creation">Creation : TP 05 Intent</string>
     <string name="id_Copyright">Copyright : AFPA Créteil CDI</string>

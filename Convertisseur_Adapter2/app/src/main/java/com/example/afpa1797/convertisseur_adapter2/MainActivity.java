@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     public void chargerSpinner(int idView){
 
         ((Spinner)findViewById(idView)).setAdapter(adapter);
+
     }
 
     /*@Override
@@ -153,9 +154,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        double resultat1 = data.getDoubleExtra("resultat1", 0.0);
+        super.onActivityResult(requestCode, resultCode, data);
+        Log.d("MAIN", "valeur du requestCode : " + requestCode);
+        Log.d("MAIN", "valeur du code retour : " + resultCode);
+        if (requestCode == 1){
+            if(resultCode == RESULT_OK){
+                toast("le résultat : " + data.getDoubleExtra("resultat", 0.0));
+            }
+        }
+       /* double resultat1 = data.getDoubleExtra("resultat1", 0.0);
         String resultat2 = data.getExtras().getString("resultat2");
-        toast(resultat1 + " " + resultat2);
+        toast(resultat1 + " " + resultat2);*/
 
     }
 }

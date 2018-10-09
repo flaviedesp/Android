@@ -10,7 +10,7 @@
     <string name="lbl_mont">Montant</string>
     <string name="lbl_btn_conv">CONVERTIR</string>
     <string name="lbl_btn_quit">QUITTER</string>
-    <string name="lbl_activite_land">Convertisseur\nde devises</string>
+    <string name="lbl_activite_land">Convertisseur de devises</string>
     <string name="lbl_activite_port">Convertisseur\nde\ndevises</string>
     <string name="id_Titre_APropos">A Propos du\nConvertisseur\nde\ndevises</string>
     <string name="id_Creation">Création : TP 05 Intent</string>

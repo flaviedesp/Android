@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idApropos"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="A Propos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/idparametre"
+        android:title="Parametre" >
+        <menu android:id="@+id/idsousmenu">
+            <item android:id="@+id/idlangue"
+                android:title="Langue"/>
+            <item android:id="@+id/iddate"
+                android:title="Date"/>
+        <item android:id="@+id/idaffichage"
+        android:title="Affichage"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/idListeDevise"
+    android:title="Liste des devises"/>"
+    <item
+        android:id="@+id/idQuitter"
+        android:title="Quitter" />
+</menu>
