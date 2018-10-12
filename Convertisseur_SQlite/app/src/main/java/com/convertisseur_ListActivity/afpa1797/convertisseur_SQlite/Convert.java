@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.convertisseur_ListActivity.afpa1797.convertisseur_SQlite.Modele.Devise;
-import com.convertisseur_ListActivity.afpa1797.convertisseur_SQlite.Modele.DeviseDAO;
+import com.convertisseur_ListActivity.afpa1797.convertisseur_SQlite.DAO.DeviseDAO;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -21,7 +21,7 @@ public class Convert {
     private static Map<String, Double> conversionTable = new HashMap<String, Double>();
 
     // static fonctionne comme un constructeur dans une classe static
-    static
+   /* static
     {
         conversionTable.put("CHF", Double.valueOf(0.958865));  // Franc Suisse (Suisse)
         conversionTable.put("DKK", Double.valueOf(6.251655));  // Couronne (Danemark)
@@ -33,7 +33,7 @@ public class Convert {
         conversionTable.put("MAD", Double.valueOf(0.771731));  // Dirhan (Maroc)
         conversionTable.put("RUB", Double.valueOf(57.879025)); // Rouble russe (Russie)
         conversionTable.put("USD", Double.valueOf(1.0));       // Dollar (Etats Unis)
-    }
+    }*/
 
     /**
      * Retourne un Double correspondant au <b>montant</b> en devise <b>source</b> converti en devise <b>cible</b>
